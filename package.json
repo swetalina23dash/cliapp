@@ -1,0 +1,26 @@
+{
+  "name": "cliapp",
+  "version": "1.0.0",
+  "description": "A cli app for dictionary",
+  "main": "index.js",
+  "bin": {
+    "cli": "./index.js"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "na"
+  },
+  "keywords": [],
+  "author": "Swetalina dash",
+  "license": "ISC",
+  "dependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "minimist": "^1.2.5",
+    "yargs": "^13.2.4"
+  }
+}
